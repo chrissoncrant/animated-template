@@ -11,8 +11,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
     <!-- Tailwind Library -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" />
+    <!--Animate On Scroll CSS and Javascript-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
 
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body class="text-gray-800 antialiased">
 
@@ -81,10 +85,10 @@
         <div class="items-center flex flex-wrap">
           <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
             <div class="pr-12">
-              <h1 class="text-white font-semibold text-5xl">
+              <h1 class="text-white font-semibold text-5xl" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
                 Welcome your epiphany.
               </h1>
-              <p class="mt-4 text-lg text-gray-300">
+              <p class="mt-4 text-lg text-gray-300" data-aos="fade-up"  data-aos-duration="1000" data-aos-delay="500">
                 Lorem ipsum dolor sit. Eum totam aspernatur aliquam praesentium aperiam magni, dignissimos, atque incidunt fuga nulla distinctio eligendi enim placeat nesciunt, soluta maxime nihil ipsa minus!
               </p>
             </div>
@@ -120,7 +124,7 @@
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap">
           <!-- Card -->
-          <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+          <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center" data-aos="fade-right" data-aos-delay="500">
             <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
               <div class="px-4 py-5 flex-auto">
                 <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
@@ -136,7 +140,7 @@
             </div>
           </div>
           <!-- Card -->
-          <div class="w-full md:w-4/12 px-4 text-center">
+          <div class="w-full md:w-4/12 px-4 text-center" data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">
             <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
               <div class="px-4 py-5 flex-auto">
                 <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
@@ -152,7 +156,7 @@
             </div>
           </div>
           <!-- Card -->
-          <div class="pt-6 w-full md:w-4/12 px-4 text-center">
+          <div class="pt-6 w-full md:w-4/12 px-4 text-center" data-aos="fade-left" data-aos-delay="1000" data-aos-duration="1500">
             <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
               <div class="px-4 py-5 flex-auto">
                 <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
@@ -172,7 +176,7 @@
         <!-- Text Box and Card Container -->
         <div class="flex flex-wrap items-center mt-32">
           <!-- Text Box Container -->
-          <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
+          <div class="w-full md:w-5/12 px-4 mr-auto ml-auto" data-aos="fade-right">
             <!-- Text Box -->
             <div class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100">
               <!-- Icon -->
@@ -195,7 +199,7 @@
           </div>
 
           <!-- Image Cap & Text Card -->
-          <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
+          <div class="w-full md:w-4/12 px-4 mr-auto ml-auto" data-aos="fade-left" data-aos-delay="500">
             <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-orange-500">
               <!-- Image -->
               <img
@@ -257,8 +261,8 @@
       <!-- Section Container -->
       <div class="container mx-auto px-4">
         <div class="items-center flex flex-wrap">
-          <div class="w-full md:w-4/12 ml-auto mr-auto px-4"> 
-            <!-- Image -->
+          <!--Image-->
+          <div class="w-full md:w-4/12 ml-auto mr-auto px-4" data-aos="fade-right" data-aos-delay="500"> 
             <img
               alt="..."
               class="max-w-full rounded-lg shadow-lg"
@@ -266,7 +270,7 @@
             />
           </div>
           <!-- Text Box Container-->
-          <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+          <div class="w-full md:w-5/12 ml-auto mr-auto px-4" data-aos="fade-left">
             <div class="md:pr-12">
               <div class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300">
                 <!-- Icon -->
@@ -281,7 +285,7 @@
               </p>
               <!-- List -->
               <ul class="list-none mt-6">
-                <li class="py-2">
+                <li class="py-2" data-aos-delay="500" data-aos="fade-left">
                   <div class="flex items-center">
                     <div>
                       <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3">
@@ -296,7 +300,7 @@
                     </div>
                   </div>
                 </li>
-                <li class="py-2">
+                <li class="py-2" data-aos-delay="500" data-aos="fade-right">
                   <div class="flex items-center">
                     <div>
                       <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3">
@@ -309,7 +313,7 @@
                     </div>
                   </div>
                 </li>
-                <li class="py-2">
+                <li class="py-2" data-aos-delay="500" data-aos="fade-left">
                   <div class="flex items-center">
                     <div>
                       <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3">
@@ -741,6 +745,11 @@
   </footer>
   <!-- End of Footer Section -->
 </body>
+<!--AOS JS-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 <!-- Navigation Script -->
 <script>
   function toggleNavbar(collapseID) {
